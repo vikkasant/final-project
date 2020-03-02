@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  #nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar-brand img {
+    height: 100px;
+    padding-left: 70px;
+
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-brand li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    columns: #007bff! important
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none! important;
+}
+.nav-link { 
+    color: 555! important;
+    font-weight: 600;
+    font-size: 16px;
+}
+    
+.progress {
+  border-radius: 16px !important; 
+  margin-bottom: 20px; 
+} 
+
+
+/* ----------------------------------------------------------------------------MENU BANNER----------------------------------------------------------------------------*/
+.about-banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Didact Gothic';font-size: 22px;
+}
+
+.about-title{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Didact Gothic';
+} /*make this sticky!*/
+
+.about-items{
+    margin: 3em;
+    font-family: 'Didact Gothic';font-size: 22px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sustainable{
+    padding: 1em;
+}
+
+.Healthy{
+    padding:1em;
+}
+
+.Homemade{
+    padding: 1em;
+}
+
+  /* ----------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------- */
+  .footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Didact Gothic';
+  }
+
+  .footer1{
+    padding: 1em;
+  }
+
+  .footer2{
+    padding: 1em;
+  }

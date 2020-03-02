@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+/**{
+  outline: 1px solid orange;
+}
+
+body{font-family: 'Didact Gothic';font-size: 22px;}
+/*----------------------------------------------------------------Navigation---------------------------------------------------------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar-brand img {
+    height: 100px;
+    padding-left: 70px;
+
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-brand li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    columns: #007bff! important
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none! important;
+}
+.nav-link { 
+    color: 555! important;
+    font-weight: 600;
+    font-size: 16px;
+}
+    
+.progress {
+  border-radius: 16px !important; 
+  margin-bottom: 20px; 
+} 
+
+
+/* ----------------------------------------------------------------------------MENU BANNER----------------------------------------------------------------------------*/
+.menu-banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.menu-title{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Didact Gothic';
+} /*make this sticky!
+
+/* -----------------------------------------------------------------------------MENU BOXES----------------------------------------------------------------------------*/
+
+.flex-container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: left;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  border-top: 3px solid orange;
+  border-bottom: 3px solid orange;
+  background-color: dimgray;
+  font-family: 'Didact Gothic';font-size: 22px;
+}
+
+.flex-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: left;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-top: 3px solid orange;
+  border-bottom: 3px solid orange;
+  background-color: dimgray;
+  font-family: 'Didact Gothic';font-size: 22px;
+}
+
+.flex-container3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: left;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-top: 3px solid orange;
+  border-bottom: 3px solid orange;
+  background-color: dimgray;
+  font-family: 'Didact Gothic';font-size: 22px;
+}
+
+.menu-section{
+ border-top: 50px solid grey;
+ background-color: seashell;
+ font-family: "Palatino Linotype", Palatino, serif;
+}
+
+.menu-item{
+  border: 1px solid palevioletred;
+  padding-left: 12em;
+  padding-right: 6em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color: white;
+}
+
+.menu-list{
+  margin-left: 1em;
+  padding: 2em;
+  font-size: 20px;
+  color: white;
+}
+
+   /* ----------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------- */
+   .footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .footer1{
+    padding: 1em;
+  }
+
+  .footer2{
+    padding: 1em;
+  }
+
+  
+
+
+/*  .menu-boxes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+  }
+
+.row {
+    margin: 8px -16px;
+    list-style: none;
+  }
+
+/* Add padding BETWEEN each column (if you want) 
+.row,
+.row > .column {
+  padding: 8px;
+}
+  
+.column {
+    float: left;
+    width: 25%;
+  }
+
+/* Clear floats after rows 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Content 
+.content {
+    background-color: white;
+    padding: 10px;
+  }
+
+/* Responsive layout - makes a two column-layout instead of four columns 
+@media screen and (max-width: 900px) {
+    .flex-container1 {
+      width: 50%;
+    }
+  }
+
+
+/*.menu-boxes {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    border: 1px solid #ccc;}
+    /*float: left;
+    width: 180px;
+  }
+  
+  .menu-boxes:hover {
+    border: 1px solid #777;
+  }
+  
+  .menu-one ul {
+    width: 100%;
+    height: auto;
+  }

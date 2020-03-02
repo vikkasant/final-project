@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------Navigation-------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: 'Didact Gothic';font-size: 22px;
+
+}
+
+.navbar-brand img {
+    height: 100px;
+    padding-left: 70px;
+
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-brand li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    columns: #007bff! important
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none! important;
+}
+.nav-link { 
+    color: 555! important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* {
+  border-radius: 16px;
+
+} */
+.progress {
+  border-radius: 16px !important; 
+  margin-bottom: 20px; 
+
+} 
+/*----------Services----------*/
+/* #services {
+background-image: linear-gradient(rgba (0,0,0,0.8)rgba(0,0,0,0.8)) url("./services.jpg");
+background-size: cover;
+background-position: center;
+color: black !important;
+background-attachment: fixed;
+padding-top: 50px;
+padding-bottom: 50px;
+} */
+/* #services h1 {
+    text-align: center;
+    color: #eeffee Q!important;
+    padding-bottom: 10px;
+} */
+
+.aboutContainer {
+    display: flex;
+    margin: 10px;
+    font-family: 'Didact Gothic';
+}
+
+.aboutItem {
+    margin: 20px;
+    width: 50%;
+}
+
+.aboutButton {
+    margin-top: 20px;
+}
+
+
+/* ----------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------- */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Didact Gothic';
+  }
+
+  .footer1{
+    padding: 1em;
+  }
+
+  .footer2{
+    padding: 1em;
+  }
